@@ -38,13 +38,13 @@ Para instalar o PySpark no Anaconda, vá no prompt de comando do Anaconda, cliqu
 
 No terminal, digite `pip install pyspark`. Aguarde a instalação.
 
-![Pull image](./images/4.png)
+![Pull image](./images/4.PNG)
 
 # Etapa 5: Validação
 
 Ainda no terminal do Anaconda, digite `jupyter notebook` para abrir o Jupyter Notebook.
 
-![Pull image](./images/5.png)
+![Pull image](./images/5.PNG)
 
 ![Pull image](./images/6.png)
 
