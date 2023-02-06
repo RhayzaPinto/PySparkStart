@@ -4,14 +4,14 @@ No presente trabalho, utilizaremos a plataforma Jupyter Notebook para análise d
 
 Para isso, será necessário o download e configuração do ambiente, no SO Windows 10. Serão necessários 8 etapas para conclusão da configuração.
 
-> Etapa 1: Download e instação do [Python](https://www.python.org/)
-> Etapa 2: Download e instalação do [Anaconda](https://www.anaconda.com/)
-> Etapa 3: Instalação do [Java](https://adoptium.net/)
-> Etapa 4: Instação do [PySpark](link)
-> Etapa 5: Instalação do [FindSpark](link)
-> Etapa 6: Validação da instalação do PySpark no terminal do PySpark
-> Etapa 7: Utilização do PySpark no jupyter Notebook
-> Etapa 8: Rodar PySpark da IDE
+> Etapa 1: Download e instação do [Python](https://www.python.org/)</b>
+> Etapa 2: Download e instalação do [Anaconda](https://www.anaconda.com/)</b>
+> Etapa 3: Instalação do Java</b>
+> Etapa 4: Instação do PySpark</b>
+> Etapa 5: Instalação do FindSpark</b>
+> Etapa 6: Validação da instalação do PySpark no terminal do PySpark</b>
+> Etapa 7: Utilização do PySpark no jupyter Notebook</b>
+> Etapa 8: Rodar PySpark da IDE</b>
 
 # Etapa 1: Download e instação do Python
 
@@ -46,3 +46,9 @@ Para instalar o PySpark no Anaconda, utilizarei o comando `conda` também.
 No terminal, digite `conda install pyspark`. Aguarde a instalação.
 
 ![Pull image](./images/6.PNG)
+
+# Etapa 5: Instalar FindSpark
+
+Para utilizar o PySpark no Jupyter Notebook, primeiramente, você precisa encontrar a Instalação PySpark. Para isso, utilize o pacote `findspark`.
+
+Digite `conda install -c conda-forge findspark` no terminal.
