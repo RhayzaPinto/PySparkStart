@@ -2,7 +2,7 @@
 
 No presente trabalho, utilizaremos a plataforma Jupyter Notebook para análise do arquivo [diamonds.csv](link).
 
-Para isso, será necessário o download e configuração do ambiente, no SO Windows 10. Serão necessários 8 etapas para conclusão da configuração.
+Para isso, será necessário o download e configuração do ambiente, no SO Windows 10. Serão necessários 5 etapas para conclusão da configuração.
 
 > Etapa 1: Download e instação do [Python](https://www.python.org/)<br>
 > Etapa 2: Download e instalação do [Anaconda](https://www.anaconda.com/)<br>
@@ -30,7 +30,7 @@ Vá em https://www.anaconda.com/ e clique no botão com a imagem do sistema oper
 
 PySpark utiliza Java como dependência, portanto, você precisa ter Java no seu Windows. Para instalá-lo, vá em https://www.java.com/pt-BR/download/manual.jsp e faça o download e instalação pelo executável.
 
-![Pull image](./images/3.PNG)
+![Pull image](./images/3.png)
 
 # Etapa 4: Instação do PySpark
 
@@ -38,22 +38,22 @@ Para instalar o PySpark no Anaconda, vá no prompt de comando do Anaconda, cliqu
 
 No terminal, digite `pip install pyspark`. Aguarde a instalação.
 
-![Pull image](./images/6.PNG)
+![Pull image](./images/4.png)
 
 # Etapa 5: Validação
 
-Ainda no terminal do Anacoda, digite `jupyter notebook` para abrir o Jupyter Notebook.
+Ainda no terminal do Anaconda, digite `jupyter notebook` para abrir o Jupyter Notebook.
 
-![Pull image](./images/6.png)
+![Pull image](./images/5.png)
 
 ![Pull image](./images/6.png)
 
 Abra um novo notebook Python 3.
 
-![Pull image](./images/6.png)
+![Pull image](./images/7.png)
 
 Na primeira célula, digite `import pyspark` e clique em `run`.
 
-![Pull image](./images/6.png)
+![Pull image](./images/8.png)
 
 Não deve ter nenhuma saída.
