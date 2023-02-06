@@ -4,14 +4,11 @@ No presente trabalho, utilizaremos a plataforma Jupyter Notebook para análise d
 
 Para isso, será necessário o download e configuração do ambiente, no SO Windows 10. Serão necessários 8 etapas para conclusão da configuração.
 
-> Etapa 1: Download e instação do [Python](https://www.python.org/)</b>
-> Etapa 2: Download e instalação do [Anaconda](https://www.anaconda.com/)</b>
-> Etapa 3: Instalação do Java</b>
-> Etapa 4: Instação do PySpark</b>
-> Etapa 5: Instalação do FindSpark</b>
-> Etapa 6: Validação da instalação do PySpark no terminal do PySpark</b>
-> Etapa 7: Utilização do PySpark no jupyter Notebook</b>
-> Etapa 8: Rodar PySpark da IDE</b>
+> Etapa 1: Download e instação do [Python](https://www.python.org/)<br>
+> Etapa 2: Download e instalação do [Anaconda](https://www.anaconda.com/)<br>
+> Etapa 3: Instalação do [Java](https://www.java.com/pt-BR/download/manual.jsp)<br>
+> Etapa 4: Instação do PySpark<br>
+> Etapa 5: Validação<br>
 
 # Etapa 1: Download e instação do Python
 
@@ -31,24 +28,32 @@ Vá em https://www.anaconda.com/ e clique no botão com a imagem do sistema oper
 
 # Etapa 3: Instalação do Java
 
-PySpark utiliza Java como dependência, portanto, você precisa ter Java no seu Windows. Como o Java é de terceiros, você pode instalá-lo utilizando o `conda`. `conda` é o gerenciador de pacotes no qual a distribuição do Anaconda é construída. É um gerenciador de pacotes multiplataforma e independente de linguagem. Como o Oracle Java não é mais de código aberto, estou usando o OpenJDK versão 11. Abra o Terminal do Windows e execute o comando ``conda install openjdk`` para instalar o Java.
+PySpark utiliza Java como dependência, portanto, você precisa ter Java no seu Windows. Para instalá-lo, vá em https://www.java.com/pt-BR/download/manual.jsp e faça o download e instalação pelo executável.
 
 ![Pull image](./images/3.PNG)
 
-Digite `y` para continuar a instalação.
-
-![Pull image](./images/4.PNG)
-
 # Etapa 4: Instação do PySpark
 
-Para instalar o PySpark no Anaconda, utilizarei o comando `conda` também.
+Para instalar o PySpark no Anaconda, vá no prompt de comando do Anaconda, clique com o botão direito e clique em `Executar como administrador`.
 
-No terminal, digite `conda install pyspark`. Aguarde a instalação.
+No terminal, digite `pip install pyspark`. Aguarde a instalação.
 
 ![Pull image](./images/6.PNG)
 
-# Etapa 5: Instalar FindSpark
+# Etapa 5: Validação
 
-Para utilizar o PySpark no Jupyter Notebook, primeiramente, você precisa encontrar a Instalação PySpark. Para isso, utilize o pacote `findspark`.
+Ainda no terminal do Anacoda, digite `jupyter notebook` para abrir o Jupyter Notebook.
 
-Digite `conda install -c conda-forge findspark` no terminal.
+![Pull image](./images/6.png)
+
+![Pull image](./images/6.png)
+
+Abra um novo notebook Python 3.
+
+![Pull image](./images/6.png)
+
+Na primeira célula, digite `import pyspark` e clique em `run`.
+
+![Pull image](./images/6.png)
+
+Não deve ter nenhuma saída.
