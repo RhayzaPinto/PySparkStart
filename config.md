@@ -30,7 +30,7 @@ Vá em https://www.anaconda.com/ e clique no botão com a imagem do sistema oper
 
 PySpark utiliza Java como dependência, portanto, você precisa ter Java no seu Windows. Para instalá-lo, vá em https://www.java.com/pt-BR/download/manual.jsp e faça o download e instalação pelo executável.
 
-![Pull image](./images/3.png)
+![Pull image](./images/3.PNG)
 
 # Etapa 4: Instação do PySpark
 
